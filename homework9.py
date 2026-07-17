@@ -2,9 +2,7 @@ import numpy as np
 
 
 def VAD(waveform, Fs):
-    '''
-    Extract speech segments whose energy is greater than 10% of maximum.
-    '''
+    
     frame_length = int(0.025 * Fs)   # 25 ms
     step = int(0.010 * Fs)           # 10 ms
 

@@ -1,20 +1,5 @@
 def next_birthday(date, birthdays):
-    '''
-    Find the next birthday after the given date.
-
-    @param:
-    date - tuple (month, day)
-
-    birthdays - dictionary:
-        {
-            (month, day): [names]
-        }
-
-    @return:
-    birthday - next birthday date
-    list_of_names - names having birthday on that date
-    '''
-
+  
     current_month, current_day = date
 
     # Convert current date to comparable number
